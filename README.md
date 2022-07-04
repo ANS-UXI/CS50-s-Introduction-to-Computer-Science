@@ -1,7 +1,7 @@
 # CS50s-Introduction-to-Computer-Science
 
-<p align="left">
- <img src="Harvard.png?raw=true" alt="Harvard logo" width="30%" height="30%" />
-<p align="right">
- <img src="CS50.png?raw=true" alt="CS50 logo" width="30%" height="30%" />
+<p align="center">
+  <img alt="Harvard" src="Harvard.png" width="35%" height="35%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="CS50" src="CS50.png" width="35%" height="35%">
 </p>
