@@ -48,16 +48,16 @@ It is a set of instructions to solve a problem efficiently .
 
 It is the representation of an algorithm in a human language.
 
-`1  Pick up phone book` <br />
-`2  Open to middle of phone book` <br />
-`3  Look at page` <br />
-`4  If person is on page` <br />
-`5`    `Call person` <br />
-`6  Else if person is earlier in book` <br />
-`7      Open to middle of left half of book` <br />
-`8      Go back to line 3` <br />
-`9  Else if person is later in book` <br />
-`10     Open to middle of right half of book` <br />
-`11     Go back to line 3` <br />
-`12 Else` <br />
-`13     Quit` <br />
+```1  Pick up phone book 
+2  Open to middle of phone book
+3  Look at page
+4  If person is on page
+5    Call person
+6  Else if person is earlier in book
+7      Open to middle of left half of book
+8      Go back to line 3
+9  Else if person is later in book
+10     Open to middle of right half of book
+11     Go back to line 3
+12 Else
+13     Quit```
