@@ -52,7 +52,7 @@ It is the representation of an algorithm in a human language.
 `2  Open to middle of phone book` <br />
 `3  Look at page` <br />
 `4  If person is on page` <br />
-`5      Call person` <br />
+`5`    `Call person` <br />
 `6  Else if person is earlier in book` <br />
 `7      Open to middle of left half of book` <br />
 `8      Go back to line 3` <br />
