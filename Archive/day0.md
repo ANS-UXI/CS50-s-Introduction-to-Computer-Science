@@ -37,3 +37,27 @@ Colors can also be represented by 0s and 1s with one of a system called [RGB](ht
 [Here is an example of a pixel in a photo](https://www.javatpoint.com/concept-of-pixel)
 
 Videos are nothing indeed photos when played in a sequence one by one like a [flipbook](https://www.youtube.com/watch?v=vWq-s26YCG8)
+
+Sounds can also be represented by bits which can play any type of musical note for any duration of time when interpreted by a software.
+
+## Algorithms:
+
+It is a set of instructions to solve a problem efficiently .
+
+## Pseudocode:
+
+It is the representation of an algorithm in a human language.
+
+`1  Pick up phone book
+2  Open to middle of phone book
+3  Look at page
+4  If person is on page
+5      Call person
+6  Else if person is earlier in book
+7      Open to middle of left half of book
+8      Go back to line 3
+9  Else if person is later in book
+10     Open to middle of right half of book
+11     Go back to line 3
+12 Else
+13     Quit`
