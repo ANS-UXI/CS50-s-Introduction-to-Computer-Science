@@ -48,7 +48,8 @@ It is a set of instructions to solve a problem efficiently .
 
 It is the representation of an algorithm in a human language.
 
-```1  Pick up phone book 
+```
+1  Pick up phone book 
 2  Open to middle of phone book
 3  Look at page
 4  If person is on page
@@ -60,4 +61,5 @@ It is the representation of an algorithm in a human language.
 10     Open to middle of right half of book
 11     Go back to line 3
 12 Else
-13     Quit```
+13     Quit
+```
