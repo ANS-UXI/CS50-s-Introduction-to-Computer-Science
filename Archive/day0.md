@@ -15,17 +15,17 @@ Each binary digit is called a bit.<br />
 To count higher than 7, we would need another bit to the left to represent the number 8.
 Most computers use 8 bits at a time, like [ 00000011 = 3 ].
 <p align="center">
-  <img alt="Binary" src="CS50x/Images/Binary.jpeg" width="40%" height="40%">
+  <img alt="Binary" src="https://github.com/ANS-UXI/CS50x/blob/main/Images/Binary.jpeg" width="40%" height="40%">
 </p>
 
 Here's how you can convert any binary → decimal
 <p align="center">
-  <img alt="BinaryToDecimal" src="CS50x/Images/BinaryToDecimal.jpeg" width="40%" height="40%">
+  <img alt="BinaryToDecimal" src="https://github.com/ANS-UXI/CS50x/blob/main/Images/BinaryToDecimal.jpeg" width="40%" height="40%">
 </p>
 
 Here's how you can convert any decimal → binary
 <p align="center">
-  <img alt="DecimalToBinary" src="CS50x/Images/DecimalToBinary.jpeg" width="40%" height="40%">
+  <img alt="DecimalToBinary" src="Images/DecimalToBinary.jpeg" width="40%" height="40%">
 </p>
 
 *Texts:*
