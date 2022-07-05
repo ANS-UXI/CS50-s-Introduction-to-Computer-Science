@@ -25,7 +25,7 @@ Here's how you can convert any binary → decimal
 
 Here's how you can convert any decimal → binary
 <p align="center">
-  <img alt="DecimalToBinary" src="Images/DecimalToBinary.jpeg" width="40%" height="40%">
+  <img alt="DecimalToBinary" src="https://github.com/ANS-UXI/CS50x/blob/main/Images/DecimalToBinary.jpeg" width="40%" height="40%">
 </p>
 
 *Texts:*
