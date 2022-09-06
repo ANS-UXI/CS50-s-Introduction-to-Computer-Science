@@ -1,0 +1,3 @@
+ask user for the height of pyramid
+check whether it lies between 1-8
+if not then repeat prompting user

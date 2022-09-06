@@ -1,0 +1,21 @@
+sort1 uses: Bubble sort
+
+How do you know?: As per my test results, I ran random50000.txt with every sort program and
+the real-time of sort1 came out to be 7.966s which was way higher than sort2 and sort3. Then
+for surety I compared best case scenarios(i.e. sorted50000.txt) of sort programs. The sort 1
+program's real-time came out to be 0.716s which was lower than other two sort programs(since
+ Big Omega of bubble sort is n).
+
+sort2 uses: Merge sort
+
+How do you know?: As per my test results, I ran random50000.txt with every sort program and
+the real-time of sort2 came out to be 1.611s which was way lower than sort1 and sort3(since
+ Big O of merge sort is n*log n).
+
+sort3 uses: Selection sort
+
+How do you know?: As per my test results, I ran random50000.txt with every sort program and
+the real-time of sort3 came out to be 3.470s which was between than sort1 and sort2. Then
+for surety I compared best case scenarios(i.e. sorted50000.txt) of sort programs. The sort3
+program's real-time came out to be 3.521s which was higher than other two sort programs(since
+ Big Omega of selection sort is n^2).
