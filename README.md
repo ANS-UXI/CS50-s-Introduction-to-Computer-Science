@@ -1,7 +1,7 @@
 # CS50s-Introduction-to-Computer-Science
 
 <p align="center">
-  <img alt="Harvard" src="https://en.wikipedia.org/wiki/Harvard_University" width="35%" height="35%">
+  <img alt="Harvard" src="https://upload.wikimedia.org/wikipedia/en/thumb/2/29/Harvard_shield_wreath.svg/1024px-Harvard_shield_wreath.svg.png" width="35%" height="35%">
 &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="CS50" src="https://soundcloud.com/cs50" width="35%" height="35%">
 </p>
