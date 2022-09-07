@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>Originally 'Barcodes' were not rectangles but ______________</h3>
+                <button id="I1" onclick="check('I1')">Triangles</button>
+                <button id="I2" onclick="check('I2')">Crescent-Shaped</button>
+                <button id="I3" onclick="check('I3')">Diamonds</button>
+                <button id="C" onclick="check('C')">Circles</button>
+                <p id = "feedback_mcq"></p>
+                <hr>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>Which software company was employed to give special effects in Harry Potter movies?</h3>
+                <input type="text" id="answer" name="answer">
+                <input type="submit" value="Check Answer" onclick = check_ans()>
+                <p id = "feedback_free"></p>
+                <script>
+                    function check(x) {
+                        if (x == 'C')
+                        {
+                            document.querySelector("#".concat(x)).style.backgroundColor = 'green';
+                            document.querySelector("#feedback_mcq").innerHTML = "Correct!";
+
+                        }
+                        else
+                        {
+                            document.querySelector("#".concat(x)).style.backgroundColor = 'red';
+                            document.querySelector("#feedback_mcq").innerHTML = "Incorrect!";
+                            setTimeout(function(){
+                                window.location.reload();
+                            }, 1400);
+                        }
+                    }
+
+                    function check_ans() {
+                        answer = document.querySelector('[name="answer"]').value.toLowerCase();
+                        if (answer === "maya")
+                        {
+                            document.querySelector("#answer").style.backgroundColor = 'green';
+                            document.querySelector("#feedback_free").innerHTML = "Correct!";
+                        }
+                        else
+                        {
+                            document.querySelector("#answer").style.backgroundColor = 'red';
+                            document.querySelector("#feedback_free").innerHTML = "Incorrect!";
+                        }
+                    }
+                </script>
+            </div>
+        </div>
+    </body>
+</html>
