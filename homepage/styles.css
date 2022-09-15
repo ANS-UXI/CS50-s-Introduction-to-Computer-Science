@@ -1,0 +1,36 @@
+.center {
+    margin: auto;
+    width: 50%;
+}
+
+.logo {
+    float: right;
+    width: 40%;
+    height: 40%;
+}
+
+.valo {
+    float: right;
+    width: 25%;
+    height: 25%;
+}
+
+.chamber {
+    float: left;
+    width: 40%;
+    height: 40%;
+}
+
+.vandal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+input {
+    transform: scale(1.6);
+    margin-right: 10px;
+    vertical-align: middle;
+    margin-top: -2px;
+}
