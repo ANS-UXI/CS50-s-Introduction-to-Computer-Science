@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block main %}
+    {% if flag %}
+        <header>
+            <div class="alert alert-primary mb-0 text-center" role="alert">Password Changed!</div>
+        </header>
+        <br>
+    {% endif %}
+    <form action="/password" method="post">
+        <div class="mb-3">
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="old_pass" name="old_pass" placeholder="Old Password" type="password">
+        </div>
+        <div class="mb-3">
+            <input class="form-control mx-auto w-auto" id="new_pass" name="new_pass" placeholder="New Password" type="password">
+        </div>
+        <div class="mb-3">
+            <input class="form-control mx-auto w-auto" id="re-new_pass" name="re-new_pass" placeholder="Re-type New Password" type="text">
+        </div>
+        <button class="btn btn-primary" type="submit">Change Password</button>
+    </form>
+{% endblock %}
